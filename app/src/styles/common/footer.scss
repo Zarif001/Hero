@@ -1,0 +1,18 @@
+.footer{
+    background: #333333;
+    padding: 51px 0;
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-text{
+            color: #F7EEFF;
+            letter-spacing: 0.03em;
+            font-size: 14.2578px;
+            line-height: 10px;
+            font-family: 'Poppins-Regular';
+            margin-bottom: 15px;
+        }
+
+    }
+}

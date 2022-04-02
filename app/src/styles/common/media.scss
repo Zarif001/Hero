@@ -1,0 +1,33 @@
+@media(max-width:900px){
+    .main__mountains-items{
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+@media(max-width:700px){
+    .main__content-about{
+      display: block;
+    }
+    .header__content-title{
+        font-size: 45.797px;
+    }
+    .main__mountains-items{
+        grid-template-columns:0fr;
+        justify-content: center;
+    }
+    .main__project-picture img{
+        width: 100%;
+    }
+    
+ .main__content-mountain img{
+        width: 100%;
+    }
+}
+@media(max-width:450px){
+    .header__content-logo{
+        margin-bottom: 20px;
+    }
+    .header__content-nav{
+        flex-direction: column;
+    align-items: center;
+    }
+}

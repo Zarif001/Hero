@@ -1,0 +1,186 @@
+.main {
+    // content
+    &__content {
+        padding-top: 164px;
+
+        &-about {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 72px;
+
+        }
+
+        &-title {
+            letter-spacing: 0.03em;
+            font-size: 12.2707px;
+            color: $yellow;
+            line-height: 9px;
+            font-family: 'Poppins-Bold';
+            margin-bottom: 15px;
+        }
+
+        &-describe {
+            color: $gray;
+            letter-spacing: 0.03em;
+            font-size: 24px;
+            line-height: 31px;
+            font-family: 'Poppins-Medium';
+            margin-bottom: 31px;
+        }
+
+        &-text {
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.03em;
+            color: $gray;
+            margin-bottom: 37px;
+            font-family: 'Poppins-Light';
+        }
+
+        &-video {
+            display: flex;
+            align-items: center;
+        }
+
+        &-play {
+            color: $pink;
+            font-size: 16px;
+            line-height: 11px;
+            font-family: 'Poppins-Bold';
+            margin-left: 18px;
+        }
+    }
+    // items
+    &__items {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.05);
+        border-radius: 3px;
+        margin-top: 105px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        padding: 73px 0;
+
+        &-item{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        &-title{
+            margin-top: 17px;
+            letter-spacing: 0.03em;
+            font-size: 14px;
+            line-height: 12px;
+            font-family: 'Poppins-Medium';
+            color: $gray;
+
+        }
+        &-text{
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            max-width: 220px;
+            width: 100%;
+            margin-top: 10px;
+            color: $gray;
+            font-family: 'Poppins-Light';
+        }
+    }
+    // Project
+    &__project{
+        margin-top: 100px;
+        margin-bottom: 215px;
+        &-title{
+            letter-spacing: 0.03em;
+            line-height: 9px;
+            color: $yellow;
+            font-size: 12.2707px;
+            font-family: 'Poppins-Bold';
+            margin-bottom: 15px;
+        }
+        &-text{
+            letter-spacing: 0.03em;
+            color: $gray;
+            font-size: 24px;
+            line-height: 27px;
+            font-family: 'Poppins-Medium';
+            margin-bottom: 17px;
+        }
+        &-list{
+            display: flex;
+            align-items: center;
+        }
+        &-link{
+            margin-right: 26px;
+            letter-spacing: 0.02em;
+            font-size: 11.6912px;
+            font-family: 'Poppins-Regular';
+            color: $gray;
+            line-height: 9px;
+            transition: 0.5s;
+            border-radius: 26px;
+            &.active{
+                color:#fff;
+                background:#F3849F;
+                padding: 5px 18px;
+            }
+        }
+        
+        &-picture{  
+            margin-top: 49px;
+        }
+    }
+// Mountains
+        &__mountains{
+            background: #F7EEFF;
+            padding: 114px 0 167px 0;
+            &-content{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            &-items{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                margin-top: 58px;
+            }
+            &-title{
+                letter-spacing: 0.03em;
+                color: $yellow;
+                font-family: 'Popppins-Bold';
+                font-size: 12.2707px;
+                line-height: 9px;
+                margin-bottom: 15px;
+            }
+            &-text{
+                letter-spacing: 0.03em;
+                color: $gray;
+                font-family: 'Poppins-Medium';
+                line-height: 27px;
+                font-size: 24px;
+            }
+            &-describe{
+                color: $gray;
+                font-size: 12.2707px;
+                line-height: 24px;
+                font-family: 'Poppins-Medium';
+                letter-spacing: 0.03em;
+                margin-top: 10px;
+            }
+            &-caption{
+                color: $pink;
+                letter-spacing: 0.03em;
+                font-size:10px;
+                line-height: 7px;
+                font-family: 'Poppins-Bold';
+                margin-top: 27px;
+            }
+            &-caption:last-child {
+                color: $purple;
+            }
+        }
+
+
+
+}
